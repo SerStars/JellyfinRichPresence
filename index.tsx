@@ -6,6 +6,7 @@
 
 // alot of the code is from LastFMRichPresence
 import { ApplicationAssetUtils, FluxDispatcher, Forms, showToast } from "@webpack/common";
+import { Devs } from "@utils/constants";
 import definePlugin, { OptionType } from "@utils/types";
 import { definePluginSettings } from "@api/Settings";
 import { Logger } from "@utils/Logger";
@@ -125,7 +126,7 @@ function setActivity(activity: Activity | null) {
 export default definePlugin({
     name: "JellyfinRichPresence",
     description: "Rich presence for Jellyfin media server",
-    authors: [{ name: "vMohammad", id: 840854894881538079n }, { name: "SerStars", id: 861631850681729045n }],
+    authors: [Devs.SerStars, { name: "vMohammad", id: 840854894881538079n }],
 
     settingsAboutComponent: () => (
         <>
