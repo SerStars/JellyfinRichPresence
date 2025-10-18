@@ -12,4 +12,5 @@ Display your Jellyfin activity on Discord as a Rich Presence.
 <img width="287" height="112" alt="Screenshot Example 2" src="https://github.com/user-attachments/assets/e5f91b9b-de24-4de0-9191-d383cdb29770" />
 <br>You can customize what you'd like to display!
 
-<br>This plugin is originally from [Equicord](https://github.com/Equicord/Equicord)
+<br>This plugin is originally from [Equicord](https://github.com/Equicord/Equicord/blob/main/src/equicordplugins/jellyfinRichPresence/index.tsx)
+<br>It might lack updates.
